@@ -1,0 +1,113 @@
+.neha-App {
+  text-align: center;
+}
+
+.neha-App-header {
+  background-color: #ffe8d6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font: 'Playfair Display';
+  color: #7f5539;
+}
+
+.App-link {
+  color: #ffe8d6;
+}
+
+.neha-h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px; 
+  font-family: 'Playfair Display';
+  margin-bottom: 0px;
+}
+.neha .context{
+  font-family: 'Playfair Display';
+  margin-top: 1px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+.sub-headings{
+  font-family: 'Playfair Display';
+  color:#9c6644;
+  margin-bottom: 5px;
+}
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.neha_pic{
+  width: 300px; 
+  height: 400px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  object-position: 25% 25%; 
+  border: 5px solid #cb997e;
+}
+
+.new-girl{
+  padding-left: 20px;
+  width: 250px;
+  height: 90%;
+}
+.movies-show{
+  width: 250px;
+  height: 90%;
+}
+.nail-art{
+  width: 200px;
+  height: 90%;
+}
+.cooking{
+  width: 280px;
+  height: 90%;
+}
+.coffee{
+  width: 250px;
+  height: 90%;
+}
+.albums{
+  width: 250px;
+  height: 100%;
+}
+.description{
+  margin-top: 1px;
+}
+div-border {
+  width: 1200px;
+  background-color: #ddbea9;
+  border: 15px solid #cb997e;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  object-fit: cover;
+}
+.flex-grid .col {
+  width: 32%;
+}
+
+.flex-grid-fourths {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  object-fit: cover;
+}
+.flex-grid .col-fourths {
+  width: 24%;
+}
